@@ -1,0 +1,7 @@
+{
+  "name": "gcp-cloud-build-slack-notifier",
+  "version": "0.0.1",
+  "dependencies": {
+    "@slack/webhook": "^6.0.0"
+  }
+}
