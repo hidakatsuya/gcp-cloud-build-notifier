@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - cloud-build-slack-notifier
+  - --region=us-west1
+  - --source=.
+  - --trigger-topic=cloud-builds
+  - --runtime=nodejs16
