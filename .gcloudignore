@@ -1,0 +1,8 @@
+# ignore all
+*
+
+# specify files to be uploaded
+!.
+!package.json
+!package-lock.json
+!index.js
